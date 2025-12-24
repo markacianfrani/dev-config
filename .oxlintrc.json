@@ -1,0 +1,15 @@
+{
+	"env": {
+		"node": true,
+		"es2024": true
+	},
+	"rules": {
+		"style/curly": "error"
+	},
+	"overrides": [
+		{
+			"files": ["**/__tests__/**", "**/*.test.ts", "**/*.test.tsx"],
+			"rules": {}
+		}
+	]
+}
