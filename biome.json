@@ -21,6 +21,10 @@
 				"noFloatingPromises": "error",
 				"noUnnecessaryConditions": "error"
 			},
+            "complexity": {
+				"noForEach": "off",
+				"noStaticOnlyClass": "off"
+			},
 			"performance": {
 				"noDelete": "error"
 			},
@@ -29,7 +33,9 @@
 			},
 			"style": {
 				"useConsistentCurlyBraces": "error",
-				"useBlockStatements": "error"
+                "noNonNullAssertion": "off",
+				"useBlockStatements": "error",
+				"useNodejsImportProtocol": "error"
 			}
 		}
 	},
